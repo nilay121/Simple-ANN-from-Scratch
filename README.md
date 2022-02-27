@@ -1,2 +1,11 @@
 # Simple-ANN-from-Scratch
-It is seen that people can train a neural network using some framework but they struggle to understand the mathematics associated with it. In this repo we will first understand the mathematics behind the working of a neural network and then train a neural network from scratch using the bare minimum mathematics required. The programming language we are going to use is python, however the same can be done in any object oriented language. We will be using the Compressed Baryonic Matter (CBM) [2] detector dataset for the classification, where we will differentiate between the signal and the background noise on the basis of some feature
+One of the major problems in the field of artificial intelligence (AI) is the use of machine learning model
+as a black box, even though it might be helpful in a few cases but understanding the internal structure
+and the operating mechanism will assist the user to tweak the variables in a more efficient and productive
+manner. It will also help the user to develop a more problem specific neural architecture consistent with
+their requirement. In this paper we have introduced the working of an artificial neural network (ANN)
+by taking the example of a three layered neural network. The entire mathematics behind the working of
+neural network along with the different evaluation metrics required to assess the performance of the model
+are discussed in this paper. We have also created a custom neural network from scratch and compared it
+with the keras based model on three different datasets - susy dataset, cardiovascular dataset, churn
+dataset.
